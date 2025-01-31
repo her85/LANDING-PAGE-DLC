@@ -1,24 +1,26 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    color:#c40001;
 }
 
 header {
-    background-color: #f0f0f0;
+    background-color: #c40001;
     padding: 20px;
     text-align: center;
 }
 
 nav {
     text-align: center;
+    background-color: #c40001;
 }
 
 nav a {
     display: inline-block;
     margin: 0 10px;
     text-decoration: none;
-    color: #333;
+    color: #f2f2f2;
 }
 
 section {
@@ -39,9 +41,14 @@ section {
     padding: 10px;
 }
 
+#imagen-noticas {
+    height: 10000px;
+    width: 100px;
+}
+
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #c40001;
+    color: #f2f2f2;
     padding: 10px;
     text-align: center;
 }
