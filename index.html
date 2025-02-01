@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Valorant Mario Bros</title>
+    <title>DLC Mario Bros</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="container-md">
+  <body class="container-sm">
     <header>
       <nav>
         <a class="navbar-brand">
@@ -32,10 +32,12 @@
     <section id="inicio" class="container text-center">
       <div class="row">
         <div class="col">
-          <img src="Images/Hero.jpeg" alt="Valorant Mario Bros" />
+          <img src="Images/Hero.jpeg" alt="Hero Mario Bros"/>
         </div>
       </div>
-      <br />
+    </section><br>
+
+    <section id="descarga" class="container text-center">
       <div class="row">
         <div class="col">
           <p>
@@ -45,36 +47,33 @@
             Valorant con la estética y los personajes del popular juego de
             Nintendo.
           </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="descarga" class="container text-center">
+        </div><br>
+      </div><br>
       <div class="row">
         <div class="col">
           <img
-            src="Images/escenarios.jpg"
+            src="Mock/gorra_hongo.png"
             alt="escenarios"
-            height="400"
-            width="400"
+            height="500"
+            width="350"
           />
         </div>
-        <div class="col">
+        <div class="col" id="formulario">
           <br />
-          <h2>Descarga la demo</h2>
+          <h2>Completa el formulario y recibe una gorra de regalo</h2>
           <br />
           <form id="formulario-descarga">
             <input type="text" id="nombre" placeholder="Nombre" />
             <input type="email" id="email" placeholder="Email" />
-            <button type="submit">Descargar</button>
+            <button type="submit" id="boton-formulario" class="btn btn-primary btn-lg">Descargar la demo</button>
           </form>
         </div>
       </div>
-    </section>
+    </section><br>
 
     <section id="informacion" class="container text-center">
       <div class="row">
-        <div class="col">
+        <div class="col"><br>
           <h2>Contenido del paquete</h2>
           <br />
           <p>
@@ -91,7 +90,7 @@
             width="300"
           />
           <img
-            src="Images/mario_arma_2.jpeg"
+            src="Images/escenarios.jpg"
             alt="escenarios"
             height="400"
             width="300"
@@ -104,7 +103,7 @@
           />
         </div>
       </div>
-    </section>
+    </section><br>
 
     <section id="noticias" class="container text-center">
       <div>
@@ -113,7 +112,7 @@
       <br />
       <div class="row">
         <div class="col">
-          <img src="Images/Unreal.png" alt="unreal" height="300" width="280" />
+          <img src="Images/Unreal.png" alt="unreal" height="300" width="200" />
           <p>
             <br />
             Unreal Engine 5 con herramientas mas potentes para crear
@@ -126,7 +125,7 @@
             alt="Fantasy"
             id="imagen-noticias"
             height="300"
-            width="280"
+            width="200"
           />
           <p>
             <br />
@@ -137,7 +136,7 @@
     </section>
 
     <footer>
-      <p>&copy; 2024 Valorant Mario Bros</p>
+      <p>&copy; 2024 Mario Bros</p>
     </footer>
 
     <script src="script.js"></script>

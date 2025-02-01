@@ -8,7 +8,6 @@ body {
 
 header {
     background-color: #c40001;
-    padding: 20px;
     text-align: center;
 }
 
@@ -19,7 +18,7 @@ nav {
 
 nav a {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 40px;
     text-decoration: none;
     color: #f2f2f2;
     font-size: large;
@@ -31,8 +30,14 @@ section {
 }
 
 #inicio img {
-    max-width: 100%;
+    width: 1100px;
+    height: 1400px;
     text-align: center;
+}
+
+#formulario{
+    background-color: #c40001;
+    color: #f2f2f2;
 }
 
 #formulario-descarga {
@@ -41,13 +46,22 @@ section {
 }
 
 #formulario-descarga input {
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#boton-formulario{
+    background-color: #f2f2f2;
+    color: #c40001;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
 }
 
 footer {
     background-color: #c40001;
     color: #f2f2f2;
-    padding: 10px;
     text-align: center;
 }
