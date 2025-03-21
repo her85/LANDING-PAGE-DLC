@@ -1,4 +1,3 @@
-Landing page del lanzamiento de un DLC para un videojuego https://her85.github.io/Landing-page-DLC/
 
 Objetivo de la Landing
 Promocionar y captar la atención de los jugadores sobre el nuevo DLC de un videojuego
