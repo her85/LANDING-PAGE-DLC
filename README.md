@@ -1,12 +1,15 @@
 Landing page del lanzamiento de un DLC para un videojuego
 
+Objetivo de la Landing
+Promocionar y captar la atención de los jugadores sobre el nuevo DLC de un videojuego
+
 Herramientas Utilizadas:
 
 HTML: Estructura la página web y el contenido.
 
 CSS: Estilos visuales, diseño y disposición de los elementos.
 
-JavaScript: Interactividad, animaciones y efectos especiales.
+Vue.js: Para la interactividad y reactividad.
 
 Photoshop: Edición de imágenes, creación de banners y diseño de elementos visuales.
 

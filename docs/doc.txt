@@ -1,1 +1,59 @@
-Terminar el front para que se vea parecido al pdf
+Arquitectura del proyecto
+
+dlc-mario-bros-royal-battle/
+├── public/
+│   ├── mushroom.ico
+│ 
+├── src/
+│   ├── assets/
+|   |   |__css/
+|   |   |  |__estilo.css 
+|   |   |
+│   │   ├── icons/
+│   │   │   └── mushroom_10910052.png
+│   │   ├── images/
+│   │   │   ├── Hero.jpeg
+│   │   │   ├── mario_arma.jpeg
+│   │   │   ├── escenarios.jpg
+│   │   │   ├── armas_juego.jpg
+│   │   │   └── Unreal.png
+│   │   ├── mocks/
+│   │   │   ├── gorra_hongo.png
+│   │   │   └── celular_fantasy.png
+│   │   └── main.css
+│   ├── components/
+│   │   ├── Header.vue
+│   │   ├── Inicio.vue
+│   │   ├── Descarga.vue
+│   │   ├── Informacion.vue
+│   │   ├── Noticias.vue
+│   │   └── Footer.vue
+│   ├── App.vue
+│   └── main.js
+├── package.json
+└── index.html
+|__docs/
+|   |__doc.txt
+|__SVG/
+|   |__Disenio.svg
+|
+|__README.md
+
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```

@@ -1,0 +1,40 @@
+nav a {
+    display: inline-block;
+    margin: 0 40px;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: large;
+    font-size: 25px;
+}
+
+#inicio img {
+    width: 1100px;
+    height: 1400px;
+    text-align: center;
+}
+
+#formulario{
+    background-color: #c40001;
+    color: #f2f2f2;
+}
+
+#formulario-descarga {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario-descarga input {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#boton-formulario{
+    background-color: #f2f2f2;
+    color: #c40001;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
