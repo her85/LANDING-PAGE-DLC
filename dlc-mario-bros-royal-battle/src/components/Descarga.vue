@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col">
         <p>
-          Lanzaremos un DLC que sumerge a los agentes de Valorant en el icónico
+          Lanzaremos un DLC que sumerge a los agentes del battle royal en el icónico
           universo de Mario Bros. Este nuevo contenido ofrece una experiencia de
           juego única, combinando la mecánica táctica de Valorant con la
           estética y los personajes del popular juego de Nintendo.

@@ -43,10 +43,11 @@ body {
   }
 
   #inicio img {
-    max-width: 40%; /* Hace que la imagen sea responsiva */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Elimina espacio innecesario debajo de la imagen */
-    margin: 10px auto; /* Centra la imagen y agrega margen */
+    width: 100%;
+    max-height: 500px; /* Ajusta la altura máxima de la imagen principal */
+    object-fit: cover; /* Cubre todo el contenedor sin distorsionar la imagen */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
   }
   
   #formulario {
