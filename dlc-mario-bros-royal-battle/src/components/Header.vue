@@ -2,7 +2,7 @@
     <header>
       <nav>
         <a class="navbar-brand">
-          <img src="../assets/icons/logo.png" alt="hongo" width="50" height="50" />
+          <img src="../assets/icons/logo crack.jpg" alt="logo" width="90" height="45" />
         </a>
         <a href="#noticias">Noticias</a>
         <a href="#informacion">Información del juego</a>

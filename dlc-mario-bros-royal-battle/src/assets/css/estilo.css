@@ -1,40 +1,101 @@
-nav a {
-    display: inline-block;
-    margin: 0 40px;
-    text-decoration: none;
-    color: #f2f2f2;
-    font-size: large;
-    font-size: 25px;
-}
-
-#inicio img {
-    width: 1100px;
-    height: 1400px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #c40001; /* Color de texto rojo */
+    font-size: 20px; /* Tamaño de letra base más común */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+  }
+  
+  header {
+    background-color: #c40001;
     text-align: center;
-}
-
-#formulario{
+    padding: 5px 0; /* Agregado padding vertical */
+  }
+  
+  nav {
+    text-align: center;
+    background-color: #c40001;
+  }
+  
+  section {
+    padding: 30px 20px; /* Aumentado el padding para mejor espaciado */
+  }
+  
+  footer {
     background-color: #c40001;
     color: #f2f2f2;
-}
+    text-align: center;
+    padding: 20px 0; /* Agregado padding para mejor espaciado */
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: 0 20px; /* Reducido el margen para mejor espaciado */
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 25px; /* Tamaño de letra más legible para la navegación */
+    transition: color 0.3s ease; /* Agregado transición para hover */
+  }
+  
+  nav a:hover {
+    color: #ddd; /* Color ligeramente más claro al pasar el ratón */
+  }
 
-#formulario-descarga {
+  #inicio img {
+    max-width: 40%; /* Hace que la imagen sea responsiva */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina espacio innecesario debajo de la imagen */
+    margin: 10px auto; /* Centra la imagen y agrega margen */
+  }
+  
+  #formulario {
+    background-color: #c40001;
+    color: #f2f2f2;
+    margin: 10px auto; /* Centra el formulario y agrega margen */
+    max-width: 500px; /* Limita el ancho del formulario */
+    padding: 100px; /* Agregado padding para mejor espaciado */
+    border-radius: 8px; /* Agregado bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregado sombra suave */
+  }
+  
+  #formulario h2 {
+    font-size: 24px; /* Tamaño de letra para el título del formulario */
+    margin-bottom: 20px; /* Agregado margen inferior */
+  }
+  
+  #formulario-descarga {
     display: flex;
     flex-direction: column;
-}
-
-#formulario-descarga input {
-    margin-bottom: 20px;
-    padding: 15px;
+  }
+  
+  #formulario-descarga input {
+    margin-bottom: 15px; /* Reducido el margen para mejor espaciado */
+    padding: 12px; /* Reducido el padding para mejor espaciado */
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#boton-formulario{
+    border: 1px solid #ddd; /* Agregado borde */
+    border-radius: 4px; /* Agregado bordes redondeados */
+    font-size: 16px; /* Tamaño de letra para los inputs */
+    color: #c40001; /* Color de texto rojo para los inputs */
+  }
+  
+  #formulario-descarga input:focus {
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+    border-color: #aaa; /* Cambia el color del borde al enfocar */
+  }
+  
+  #boton-formulario {
     background-color: #f2f2f2;
     color: #c40001;
-    padding: 20px;
+    padding: 15px 20px; /* Reducido el padding para mejor espaciado */
     border: none;
     cursor: pointer;
-    font-size: 30px;
-}
+    font-size: 18px; /* Tamaño de letra más legible para el botón */
+    border-radius: 4px; /* Agregado bordes redondeados */
+    transition: background-color 0.3s ease; /* Agregado transición para hover */
+  }
+  
+  #boton-formulario:hover {
+    background-color: #ddd; /* Cambia el color de fondo al pasar el ratón */
+  }
 

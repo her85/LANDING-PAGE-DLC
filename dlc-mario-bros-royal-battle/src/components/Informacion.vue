@@ -8,10 +8,10 @@
           </p>
           <div class="row">
             <div class="col">
-            <img src="../assets/images/escenarios.jpg" alt="escenarios" height="400" width="300" />
+            <img src="../assets/images/escenarios.jpg" alt="escenarios" height="400" width="400" />
           </div>
           <div class="col">
-            <img src="../assets/images/armas_juego.jpg" alt="armas" height="400" width="300" />
+            <img src="../assets/images/armas_juego.jpg" alt="armas" height="400" width="400" />
           </div>
           </div>
         </div>
