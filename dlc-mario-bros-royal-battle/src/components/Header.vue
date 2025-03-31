@@ -16,3 +16,10 @@
     name: 'Header'
   }
   </script>
+
+<style>
+
+img {
+  border-radius: 50%; /* Redondear la imagen */
+}
+</style>

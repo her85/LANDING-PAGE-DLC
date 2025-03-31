@@ -16,6 +16,10 @@ body {
   nav {
     text-align: center;
     background-color: #c40001;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px; /* Agregado padding para mejor espaciado */
   }
   
   section {
@@ -99,4 +103,12 @@ body {
   #boton-formulario:hover {
     background-color: #ddd; /* Cambia el color de fondo al pasar el ratón */
   }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  nav a {
+    display: block; /* Muestra los enlaces del menú uno debajo del otro */
+    margin: 0.5rem 0;
+  }
+}
 
