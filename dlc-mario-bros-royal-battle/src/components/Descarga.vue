@@ -14,7 +14,7 @@
       <div class="col">
         <img
           src="../assets/mocks/gorra_hongo.jpg"
-          alt="gorra"
+          alt="Gorra de Mario Bros con hongo icónico"
           height="500"
           width="350"
         />
@@ -22,8 +22,12 @@
       <div class="col" id="formulario">
         <h2>Completa el formulario y recibe una gorra de regalo</h2>
         <form id="formulario-descarga" @submit.prevent="handleSubmit">
-          <input type="text" v-model="nombre" placeholder="Nombre" />
-          <input type="email" v-model="email" placeholder="Email" />
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" v-model="nombre" placeholder="Nombre" />
+          <span v-if="errores.nombre" class="error">{{ errores.nombre }}</span>
+          <label for="email">Email</label>
+          <input type="email" id="email" v-model="email" placeholder="Email" />
+          <span v-if="errores.email" class="error">{{ errores.email }}</span>
           <button
             type="submit"
             id="boton-formulario"
@@ -31,6 +35,7 @@
           >
             Descargar la demo
           </button>
+          <div v-if="exito" class="exito">¡Gracias por descargar Valorant Mario Bros!</div>
         </form>
       </div>
     </div>
@@ -43,28 +48,56 @@ export default {
   data() {
     return {
       nombre: '',
-      email: ''
+      email: '',
+      errores: {},
+      exito: false
     };
   },
   methods: {
     handleSubmit() {
-      // Verifica si el formulario está vacío
-      if (!this.nombre.trim() || !this.email.trim()) {
-        alert('Por favor, complete todos los campos del formulario.');
-        return; // Detiene la ejecución si el formulario está incompleto
+      this.errores = {};
+      this.exito = false;
+      if (!this.nombre.trim()) {
+        this.errores.nombre = 'El nombre es obligatorio.';
       }
-      // Verifica si el formulario tiene datos
-      if (this.nombre.trim() !== '' || this.email.trim() !== '') {
-        // Aquí puedes agregar la lógica para procesar la descarga
-        alert('¡Gracias por descargar Valorant Mario Bros!');
-        // lógica de envío del formulario
+      if (!this.email.trim()) {
+        this.errores.email = 'El email es obligatorio.';
+      } else if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(this.email)) {
+        this.errores.email = 'El email no es válido.';
+      }
+      if (Object.keys(this.errores).length > 0) {
+        return;
+      }
+      // Simula el envío del formulario
+      this.exito = true;
+      // lógica de envío del formulario
       console.log('Nombre:', this.nombre);
       console.log('Email:', this.email);
-        // Limpia el formulario
-        this.nombre = '';
-        this.email = '';
-      }
+      // Limpia el formulario
+      this.nombre = '';
+      this.email = '';
     }
   }
 };
 </script>
+
+<style scoped>
+.error {
+  color: #fff;
+  background: #c40001;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+}
+.exito {
+  color: #fff;
+  background: #28a745;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 12px;
+  display: block;
+}
+</style>

@@ -1,8 +1,8 @@
 <template>
     <header>
-      <nav>
-        <a class="navbar-brand">
-          <img src="../assets/icons/logo crack.jpg" alt="logo" width="90" height="45" />
+      <nav aria-label="Navegación principal">
+        <a class="navbar-brand" href="#inicio">
+          <img src="../assets/icons/logo crack.jpg" alt="Logo Mario Bros Battle Royal" width="90" height="45" />
         </a>
         <a href="#noticias">Noticias</a>
         <a href="#informacion">Información del juego</a>
@@ -17,9 +17,13 @@
   }
   </script>
 
-<style>
+<style scoped>
 
 img {
   border-radius: 50%; /* Redondear la imagen */
+}
+nav a:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
 }
 </style>
