@@ -2,7 +2,7 @@
     <header>
       <nav aria-label="Navegación principal">
         <a class="navbar-brand" href="#inicio">
-          <img src="../assets/icons/logo crack.jpg" alt="Logo Mario Bros Battle Royal" width="90" height="45" />
+          <img src="../assets/icons/logoCrack.JPG" alt="Logo Mario Bros Battle Royal" width="90" height="45" />
         </a>
         <a href="#noticias">Noticias</a>
         <a href="#informacion">Información del juego</a>
